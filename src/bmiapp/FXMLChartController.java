@@ -40,6 +40,7 @@ public class FXMLChartController implements Initializable {
     }
     
     public void veHandler(ActionEvent evt) {
+        // Xử lý sự kiện vẽ biểu đồ
         PieChart chart = new PieChart();
         chart.setTitle("Biểu đồ dữ liệu");
         
