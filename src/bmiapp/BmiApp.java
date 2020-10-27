@@ -23,7 +23,9 @@ public class BmiApp extends Application {
         
         Scene scene = new Scene(root);
         
+        if (stage == null);
         stage.setScene(scene);
+        
         stage.show();
     }
 
