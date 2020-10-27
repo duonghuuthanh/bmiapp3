@@ -27,13 +27,15 @@ public class FXMLDocumentController implements Initializable {
     }    
     
     public void tinhBmiHandler(ActionEvent evt) {
-        double chieuCao = Double.parseDouble(this.txtChieuCao.getText());
-        double canNang = Double.parseDouble(this.txtCanNang.getText());
-        
-        double bmi = canNang / Math.pow(chieuCao, 2);
-        
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setContentText(String.valueOf(bmi));
-        alert.show();
+        if (!this.txtChieuCao.getText().isEmpty()) {
+            double chieuCao = Double.parseDouble(this.txtChieuCao.getText());
+            double canNang = Double.parseDouble(this.txtCanNang.getText());
+
+            double bmi = canNang / Math.pow(chieuCao, 2);
+
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setContentText(String.valueOf(bmi));
+            alert.show();
+        }
     }
 }
