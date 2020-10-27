@@ -31,5 +31,5 @@ HBox, VBox {
 }
 
 Text {
-    
+    -fx-fill: red;
 }
