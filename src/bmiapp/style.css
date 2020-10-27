@@ -31,5 +31,6 @@ HBox, VBox {
 }
 
 Text {
+    -fx-background-color: blue;
     -fx-fill: red;
 }
