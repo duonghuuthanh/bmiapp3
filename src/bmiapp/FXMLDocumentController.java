@@ -26,7 +26,7 @@ public class FXMLDocumentController implements Initializable {
         // TODO
         // test
         if (txtCanNang != null && txtChieuCao != null) {
-            
+            // testing
         }
     }    
     
