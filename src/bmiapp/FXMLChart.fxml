@@ -21,6 +21,7 @@
                <children>
                   <Button mnemonicParsing="false" onAction="#themHandler" text="Thêm" />
                   <Button mnemonicParsing="false" onAction="#veHandler" text="Vẽ biểu đồ" />
+                  <Button mnemonicParsing="false" text="Button" />
                </children>
             </HBox>
          </children>
