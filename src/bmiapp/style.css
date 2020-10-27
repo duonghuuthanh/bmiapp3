@@ -30,7 +30,11 @@ HBox, VBox {
     -fx-spacing:5;
 }
 
-Text {
+
+Text, Label {
+    -fx-border-color: blue;
+    -fx-border-color: white;
+    -fx-stroke: blue;
     -fx-fill: red;
     -fx-border-color: blueviolet ;
 }
