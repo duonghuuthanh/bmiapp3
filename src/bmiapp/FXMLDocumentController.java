@@ -25,7 +25,7 @@ public class FXMLDocumentController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
         // test
-        if (txtChieuCao != null) {
+        if (txtCanNang != null && txtChieuCao != null) {
             
         }
     }    
