@@ -27,7 +27,8 @@ public class FXMLDocumentController implements Initializable {
     }    
     
     public void tinhBmiHandler(ActionEvent evt) {
-        if (!this.txtChieuCao.getText().isEmpty()) {
+        if (!this.txtChieuCao.getText().isEmpty() &&  !this.txtCanNang.getText().isEmpty()) {
+
             double chieuCao = Double.parseDouble(this.txtChieuCao.getText());
             double canNang = Double.parseDouble(this.txtCanNang.getText());
 
