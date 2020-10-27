@@ -32,4 +32,5 @@ HBox, VBox {
 
 Text {
     -fx-fill: red;
+    -fx-border-color: blueviolet ;
 }
