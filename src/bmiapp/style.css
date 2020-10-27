@@ -33,7 +33,7 @@ HBox, VBox {
 
 Text, Label {
     -fx-border-color: blue;
-    -fx-border-color: white;
+    -fx-border-color: black;
     -fx-stroke: blue;
     -fx-fill: red;
     -fx-border-color: blueviolet ;
