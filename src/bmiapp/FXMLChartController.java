@@ -33,6 +33,11 @@ public class FXMLChartController implements Initializable {
         // TODO
     }    
     
+    
+    /**
+     * Phương thức xử lý sự kiện thêm TextField
+     * @param evt 
+     */
     public void themHandler(ActionEvent evt) {
         TextField txt = new TextField();
         
