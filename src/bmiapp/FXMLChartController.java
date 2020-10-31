@@ -49,12 +49,14 @@ public class FXMLChartController implements Initializable {
         PieChart chart = new PieChart();
         chart.setTitle("Biểu đồ dữ liệu");
         
-        for (Node n: vCtrls.getChildren()) {
-            TextField t = (TextField) n;
-            chart.getData().add(new PieChart.Data(t.getText(), 
-                    Integer.parseInt(t.getText())));
+        if (vCtrls.getChildren().size() >= 1) {
+            for (Node n: vCtrls.getChildren()) {
+                TextField t = (TextField) n;
+                chart.getData().add(new PieChart.Data(t.getText(), 
+                        Integer.parseInt(t.getText())));
+            }
+
+            pChart.getChildren().add(chart);
         }
-        
-        pChart.getChildren().add(chart);
     }
 }
