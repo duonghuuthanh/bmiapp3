@@ -49,7 +49,8 @@ public class FXMLChartController implements Initializable {
         PieChart chart = new PieChart();
         chart.setTitle("Biểu đồ dữ liệu");
         
-        if (vCtrls.getChildren().size() >= 1) {
+
+        if (vCtrls.getChildren().size() > 0) {
             for (Node n: vCtrls.getChildren()) {
                 TextField t = (TextField) n;
                 chart.getData().add(new PieChart.Data(t.getText(), 
